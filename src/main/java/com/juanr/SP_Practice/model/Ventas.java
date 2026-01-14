@@ -18,4 +18,5 @@ public class Ventas {
     private Long id;
 
     @Column(name = "cedula_cleinte", nullable = false)
+    private String cedula;
 }
