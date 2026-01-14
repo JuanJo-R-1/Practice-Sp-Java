@@ -10,11 +10,9 @@ public class SpPracticeApplication {
 		SpringApplication.run(SpPracticeApplication.class, args);
 		String text1="David";
 		String text2="DaViD";
-		if(text1.equealsIgnoreCase(text2)){
+		//if(text1.equealsIgnoreCase(text2)){
 
 
 		}
 	}
 
-
-}
