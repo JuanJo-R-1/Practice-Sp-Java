@@ -8,7 +8,7 @@ import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
-public interface ProductoRepository  extends JpaRepository<Productos, Long> {
+public interface ProductosRepository  extends JpaRepository<Productos, Long> {
     List<Productos> findByNombre(String nombre);
     //select * from productos where nombre='rerer';
     List<Productos> findByCantidad(Integer cantidad);
@@ -19,3 +19,4 @@ public interface ProductoRepository  extends JpaRepository<Productos, Long> {
     @Query("UPDATE productos p set p.cantidad=p.cantidad+ :stock where p.id= :id")
     void actualizaProducto(@Param("stock") Integer stock, @Param("id") Long id);
 }
+//xpathview + xslt, JVM microservice frameworks,
