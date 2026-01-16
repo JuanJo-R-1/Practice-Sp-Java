@@ -1,7 +1,7 @@
-package com.juanr.SP_Practice.service;
+package com.juanr.sp_practice.service;
 
-import com.juanr.SP_Practice.dto.request.ProductosRequestDTO;
-import com.juanr.SP_Practice.dto.response.ProductosResponseDTO;
+import com.juanr.sp_practice.dto.request.ProductosRequestDTO;
+import com.juanr.sp_practice.dto.response.ProductosResponseDTO;
 import java.util.List;
 
 public interface ProductosService {
@@ -11,11 +11,9 @@ public interface ProductosService {
 
     ProductosResponseDTO obtenerPorId(Long id);
 
-    ProductosResponseDTO actualizarProducto(Long id, ProductosResponseDTO dto);
+    ProductosResponseDTO actualizarProducto(Long id, ProductosRequestDTO dto);
 
     void eliminarProducto(Long ig);
 
     List<ProductosResponseDTO> obtenerPorCantidad(Integer cantidad);
-
-
 }

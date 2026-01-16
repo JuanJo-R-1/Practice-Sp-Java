@@ -1,9 +1,9 @@
-package com.juanr.SP_Practice.mapper;
-import com.juanr.SP_Practice.dto.request.DetalleVentaRequestDTO;
-import com.juanr.SP_Practice.dto.response.DetalleVentaResponseDTO;
-import com.juanr.SP_Practice.model.DetalleVenta;
-import com.juanr.SP_Practice.model.Productos;
-import com.juanr.SP_Practice.model.Ventas;
+package com.juanr.sp_practice.mapper;
+import com.juanr.sp_practice.dto.request.DetalleVentaRequestDTO;
+import com.juanr.sp_practice.dto.response.DetalleVentaResponseDTO;
+import com.juanr.sp_practice.model.DetalleVenta;
+import com.juanr.sp_practice.model.Productos;
+import com.juanr.sp_practice.model.Ventas;
 import org.springframework.stereotype.Component;
 
 @Component

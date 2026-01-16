@@ -1,4 +1,4 @@
-package com.juanr.SP_Practice;
+package com.juanr.sp_practice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

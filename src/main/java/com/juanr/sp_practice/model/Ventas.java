@@ -1,12 +1,10 @@
-package com.juanr.SP_Practice.model;
+package com.juanr.sp_practice.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.hibernate.annotations.AnyDiscriminatorImplicitValues;
-import org.springframework.boot.autoconfigure.web.WebProperties;
 
 @Entity
 @Table

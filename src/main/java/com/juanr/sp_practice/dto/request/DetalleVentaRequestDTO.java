@@ -1,4 +1,4 @@
-package com.juanr.SP_Practice.dto.request;
+package com.juanr.sp_practice.dto.request;
 
 import java.math.BigDecimal;
 

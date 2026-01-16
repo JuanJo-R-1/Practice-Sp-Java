@@ -1,4 +1,4 @@
-package com.juanr.SP_Practice.model;
+package com.juanr.sp_practice.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -28,4 +28,44 @@ public class DetalleVenta {
     private BigDecimal subtotal;
 
 
+    public Object getSubtotal() {
+        return null;
+    }
+
+    public Productos getVentas() {
+        return null;
+
+    }
+
+    public Object getCantidad() {
+        return null;
+
+    }
+
+    public Productos getProductos() {
+        return null;
+
+    }
+
+    public Object getId() {
+        return null;
+
+    }
+
+    public void setProductos(Productos productos) {
+    }
+
+    public void setCantidad(Integer cantidad) {
+    }
+
+    public void setVentas(Ventas ventas) {
+    }
+
+    public void setSubtotal(BigDecimal subtotal) {
+    }
+
+    public Object getDescripcion() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getDescripcion'");
+    }
 }
